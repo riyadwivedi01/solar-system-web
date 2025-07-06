@@ -1,0 +1,116 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#solarCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: black;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+  border-radius: 10px;
+  z-index: 10;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+#controls label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#controls input[type="range"] {
+  width: 150px;
+  margin-top: 5px;
+}
+
+
+ */
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#solarCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: black;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+  border-radius: 10px;
+  z-index: 10;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+#controls label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#controls input[type="range"] {
+  width: 150px;
+  margin-top: 5px;
+}
+
+#toggleMode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  z-index: 10;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 12px;
+  display: none;
+  z-index: 100;
+}
