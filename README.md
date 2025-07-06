@@ -25,5 +25,6 @@ A **3D solar system simulation** built using [Three.js](https://threejs.org/) th
 
 ---
 
-## 🗂 Folder Structure
+### 🚀 Live Demo
+👉https://riyadwivedi01.github.io/solar-system-web/
 
